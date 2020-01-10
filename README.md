@@ -2,7 +2,7 @@
 
 **Magento 2 Russian Language Pack** enables you to customize the existing language and adjust to Russian Language, that is really perfect tool to localize your store in Russia. This package will allow you to convert all words and phrases from both the frontend and the backend into the Russian Language.
 
-Today, in Magento 2 Russian Language Pack topic, I will instruct you to download and install the package. After all, the automatic translation is implemented right after you activate Russian (Russia) option in *Store > Configuration > Locale Options*.
+Today, in Magento 2 Russian Language Pack topic, I will instruct you to download and install the package. After all, the automatic translation is implemented right after you activate Russian (Russia) option in `Store > Configuration > Locale Options`.
 
 ## 1. How to Install Russian Language Pack
 
@@ -56,6 +56,7 @@ Your Magento 2 root folder can be: `/home/account_name/yourstore.com/public_html
 
 ```
 unzip master.zip app/i18n/Rhoni/
+
 ```
 
 Rename folder `magento-2-russian-language-pack-fixed` to `ru_ru`.
@@ -68,6 +69,7 @@ You also can unzip locally and upload them to Magento 2 root folder.
 ```
 php bin/magento cache:clean
 php bin/magento cache:flush
+
 ```
 
 ### ✓ Method #3. Download and install manually (Not recommended)
@@ -90,6 +92,7 @@ This language pack code is: **ru_ru**
 ```
 php bin/magento cache:clean
 php bin/magento cache:flush
+
 ```
 
 ## 3. How to Active the Russian language pack 
