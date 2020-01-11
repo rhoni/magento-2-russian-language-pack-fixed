@@ -47,7 +47,7 @@ This method suitable for non-technical people such as merchants. Just download t
 
 #### Step 1 : Download the Russian language pack
 
-You can download the language pack from above link
+You can download the language pack
 
 #### Step 2: Unzip Russian pack
 
