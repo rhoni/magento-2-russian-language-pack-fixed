@@ -1,4 +1,4 @@
-# Magento 2 Russian Language Pack (Full translated)
+# Magento 2 Russian Language Pack (fully translated)
 
 **Magento 2 Russian Language Pack** enables you to customize the existing language and adjust to Russian Language, that is really perfect tool to localize your store in Russia. This package will allow you to convert all words and phrases from both the frontend and the backend into the Russian Language.
 
@@ -15,8 +15,8 @@ Install the Russian language pack via composer is never easier.
 **Install Russian pack**:
 
 ```
-composer require rhoni/magento-2-russian-language-pack-fixed:dev-master
-php bin/magento setup:static-content:deploy ru_RU
+composer require rhoni/magento-2-russian-language-pack-full:dev-master
+php bin/magento setup:static-content:deploy ru_RU -f
 php bin/magento indexer:reindex
 php bin/magento cache:clean
 php bin/magento cache:flush
@@ -27,8 +27,8 @@ php bin/magento cache:flush
 **Update  Russian pack**:
 
 ```
-composer update rhoni/magento-2-russian-language-pack-fixed:dev-master
-php bin/magento setup:static-content:deploy ru_RU
+composer update rhoni/magento-2-russian-language-pack-full:dev-master
+php bin/magento setup:static-content:deploy ru_RU -f
 php bin/magento indexer:reindex
 php bin/magento cache:clean
 php bin/magento cache:flush
@@ -55,11 +55,11 @@ Unzip the Russian language pack to Magento 2 root folder. In this guide, we extr
 Your Magento 2 root folder can be: `/home/account_name/yourstore.com/public_html/`
 
 ```
-unzip master.zip app/i18n/Rhoni/
+unzip master.zip app/i18n/rhoni/
 
 ```
 
-Rename folder `magento-2-russian-language-pack-fixed` to `ru_ru`.
+Rename folder `magento-2-russian-language-pack-full` to `ru_ru`.
 
 
 You also can unzip locally and upload them to Magento 2 root folder.
@@ -78,12 +78,12 @@ To download and install Russian pack manually, you have to access to your server
 
 #### Step 1: Download the package
 
-- [Download .zip](https://github.com/rhoni/magento-2-russian-language-pack-fixed/archive/master.zip)
-- [Download .tar.gz](https://github.com/rhoni/magento-2-russian-language-pack-fixed/tarball/master)
+- [Download .zip](https://github.com/rhoni/magento-2-russian-language-pack-full/archive/master.zip)
+- [Download .tar.gz](https://github.com/rhoni/magento-2-russian-language-pack-full/tarball/master)
 
 #### Step 1: Unzip and upload
 
-Unzip the compressed file and upload file `master.zip` into `app/i18n/Rhoni/ru_ru/`
+Unzip the compressed file and upload file `master.zip` into `app/i18n/rhoni/ru_ru/`
 
 This language pack code is: **ru_ru**
 
